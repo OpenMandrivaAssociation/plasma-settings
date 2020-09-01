@@ -1,5 +1,5 @@
-%define snapshot 20200710
-%define commit ac61dae2796220e8038fb7a7555e58b155419101
+%define snapshot 20200901
+%define commit 08fa0c465ba93f6621529897bfaa844f0f58b066
 
 Name:		plasma-settings
 Version:	0.0
