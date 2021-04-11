@@ -31,6 +31,7 @@ BuildRequires:	cmake(KF5PlasmaQuick)
 BuildRequires:	cmake(KF5Declarative)
 BuildRequires:	cmake(KF5KIO)
 BuildRequires:	cmake(KF5KDELibs4Support)
+BuildRequires:	pkgconfig(gobject-2.0)
 
 %description
 Settings application for Plasma Mobile
