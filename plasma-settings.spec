@@ -2,7 +2,7 @@
 #define commit 08fa0c465ba93f6621529897bfaa844f0f58b066
 
 Name:		plasma-settings
-Version:	21.07
+Version:	21.12
 Release:	%{?snapshot:1.%{snapshot}.}1
 Summary:	Settings application for Plasma Mobile
 %if 0%{?snapshot}
@@ -49,7 +49,7 @@ Settings application for Plasma Mobile
 
 %install
 %ninja_install -C build
-%find_lang kcm_mobile_cellularnetwork
+%find_lang kcm_cellular_network
 %find_lang kcm_mobile_info
 %find_lang kcm_mobile_powermanagement
 %find_lang kcm_mobile_time
@@ -57,19 +57,16 @@ Settings application for Plasma Mobile
 %find_lang kcm_password
 %find_lang mobile.plasmasettings
 
-%files -f kcm_mobile_cellularnetwork.lang -f kcm_mobile_info.lang -f kcm_mobile_powermanagement.lang -f kcm_mobile_time.lang -f kcm_mobile_virtualkeyboard.lang -f kcm_password.lang -f mobile.plasmasettings.lang
+%files -f kcm_cellular_network.lang -f kcm_mobile_info.lang -f kcm_mobile_powermanagement.lang -f kcm_mobile_time.lang -f kcm_mobile_virtualkeyboard.lang -f kcm_password.lang -f mobile.plasmasettings.lang
 %{_bindir}/plasma-settings
-%{_libdir}/qt5/plugins/kcms/kcm_mobile_cellularnetwork.so
 %{_libdir}/qt5/plugins/kcms/kcm_mobile_info.so
 %{_libdir}/qt5/plugins/kcms/kcm_mobile_time.so
 %{_libdir}/qt5/plugins/kcms/kcm_mobile_virtualkeyboard.so
 %{_libdir}/qt5/plugins/kcms/kcm_password.so
 %{_datadir}/applications/org.kde.mobile.plasmasettings.desktop
 %{_datadir}/kpackage/genericqml/org.kde.plasma.settings
-%{_datadir}/kpackage/kcms/kcm_mobile_cellularnetwork
 %{_datadir}/kpackage/kcms/kcm_mobile_info
 %{_datadir}/kpackage/kcms/kcm_mobile_time
-%{_datadir}/kservices5/cellularnetwork.desktop
 %{_datadir}/kservices5/info.desktop
 %{_datadir}/kservices5/kcm_mobile_virtualkeyboard.desktop
 %{_datadir}/kservices5/kcm_password.desktop
@@ -79,3 +76,6 @@ Settings application for Plasma Mobile
 %{_libdir}/qt5/plugins/kcms/kcm_mobile_power.so
 %{_datadir}/kpackage/kcms/kcm_mobile_power
 %{_datadir}/kservices5/powermanagement.desktop
+%{_libdir}/qt5/plugins/kcms/kcm_cellular_network.so
+%{_datadir}/kpackage/kcms/kcm_cellular_network
+%{_datadir}/kservices5/cellularnetworksettings.desktop
