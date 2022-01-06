@@ -31,6 +31,8 @@ BuildRequires:	cmake(KF5PlasmaQuick)
 BuildRequires:	cmake(KF5Declarative)
 BuildRequires:	cmake(KF5KIO)
 BuildRequires:	cmake(KF5KDELibs4Support)
+BuildRequires:	cmake(KF5ModemManagerQt)
+BuildRequires:	cmake(KF5NetworkManagerQt)
 BuildRequires:	pkgconfig(gobject-2.0)
 
 %description
