@@ -2,7 +2,7 @@
 #define commit 08fa0c465ba93f6621529897bfaa844f0f58b066
 
 Name:		plasma-settings
-Version:	21.12
+Version:	22.02
 Release:	%{?snapshot:1.%{snapshot}.}1
 Summary:	Settings application for Plasma Mobile
 %if 0%{?snapshot}
@@ -69,15 +69,9 @@ Settings application for Plasma Mobile
 %{_datadir}/kpackage/genericqml/org.kde.plasma.settings
 %{_datadir}/kpackage/kcms/kcm_mobile_info
 %{_datadir}/kpackage/kcms/kcm_mobile_time
-%{_datadir}/kservices5/info.desktop
-%{_datadir}/kservices5/kcm_mobile_virtualkeyboard.desktop
-%{_datadir}/kservices5/kcm_password.desktop
-%{_datadir}/kservices5/timesettings.desktop
 %{_datadir}/kpackage/kcms/kcm_mobile_virtualkeyboard
 %{_datadir}/kpackage/kcms/kcm_password
 %{_libdir}/qt5/plugins/kcms/kcm_mobile_power.so
 %{_datadir}/kpackage/kcms/kcm_mobile_power
-%{_datadir}/kservices5/powermanagement.desktop
 %{_libdir}/qt5/plugins/kcms/kcm_cellular_network.so
 %{_datadir}/kpackage/kcms/kcm_cellular_network
-%{_datadir}/kservices5/cellularnetworksettings.desktop
