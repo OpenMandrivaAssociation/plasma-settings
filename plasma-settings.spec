@@ -2,7 +2,7 @@
 #define commit 08fa0c465ba93f6621529897bfaa844f0f58b066
 
 Name:		plasma-settings
-Version:	22.02
+Version:	22.04
 Release:	%{?snapshot:1.%{snapshot}.}1
 Summary:	Settings application for Plasma Mobile
 %if 0%{?snapshot}
@@ -63,8 +63,8 @@ Settings application for Plasma Mobile
 %{_bindir}/plasma-settings
 %{_libdir}/qt5/plugins/kcms/kcm_mobile_info.so
 %{_libdir}/qt5/plugins/kcms/kcm_mobile_time.so
-%{_libdir}/qt5/plugins/kcms/kcm_mobile_virtualkeyboard.so
 %{_libdir}/qt5/plugins/kcms/kcm_password.so
+%{_libdir}/qt5/plugins/kcms/kcm_mobile_onscreenkeyboard.so
 %{_datadir}/applications/org.kde.mobile.plasmasettings.desktop
 %{_datadir}/kpackage/genericqml/org.kde.plasma.settings
 %{_datadir}/kpackage/kcms/kcm_mobile_info
