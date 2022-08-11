@@ -2,7 +2,7 @@
 #define commit 08fa0c465ba93f6621529897bfaa844f0f58b066
 
 Name:		plasma-settings
-Version:	22.04
+Version:	22.06
 Release:	%{?snapshot:1.%{snapshot}.}1
 Summary:	Settings application for Plasma Mobile
 %if 0%{?snapshot}
