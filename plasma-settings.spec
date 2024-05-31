@@ -33,6 +33,7 @@ BuildRequires:	cmake(KF5KIO)
 BuildRequires:	cmake(KF5KDELibs4Support)
 BuildRequires:	cmake(KF5ModemManagerQt)
 BuildRequires:	cmake(KF5NetworkManagerQt)
+BuildRequires:	cmake(KF5KirigamiAddons)
 BuildRequires:	pkgconfig(gobject-2.0)
 
 %description
