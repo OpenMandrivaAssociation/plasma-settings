@@ -2,13 +2,13 @@
 #define commit 08fa0c465ba93f6621529897bfaa844f0f58b066
 
 Name:		plasma-settings
-Version:	25.12.0
-Release:	%{?snapshot:1.%{snapshot}.}3
+Version:	26.04.0
+Release:	%{?snapshot:0.%{snapshot}.}1
 Summary:	Settings application for Plasma Mobile
 %if 0%{?snapshot}
 Source0:	https://invent.kde.org/plasma-mobile/plasma-settings/-/archive/master/plasma-settings-master.tar.bz2
 %else
-Source0:	https://invent.kde.org/plasma-mobile/plasma-settings/-/archive/v%{version}/plasma-settings-v%{version}.tar.bz2
+Source0:	https://download.kde.org/stable/release-service/%{version}/src/plasma-settings-%{version}.tar.xz
 %endif
 License:	GPLv3
 Group:		Applications/Productivity
