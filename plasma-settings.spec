@@ -3,7 +3,7 @@
 
 Name:		plasma-settings
 Version:	26.08.1
-Release:	%{?snapshot:0.%{snapshot}.}1
+Release:	%{?snapshot:0.%{snapshot}.}2
 Summary:	Settings application for Plasma Mobile
 %if 0%{?snapshot}
 Source0:	https://invent.kde.org/plasma-mobile/plasma-settings/-/archive/master/plasma-settings-master.tar.bz2
